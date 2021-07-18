@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@android:color/white">
+
+    <TextView
+        android:id="@+id/statusLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Charging"
+        android:textSize="24sp"
+        android:layout_marginTop="60dp"/>
+
+    <ImageView
+        android:id="@+id/batteryImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/b50"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:id="@+id/percentageLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="49%"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:layout_marginTop="30dp"/>
+    <TextView
+        android:id="@+id/textViewBatteryHealth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Current Battery Health"
+        android:textColor="@color/black" />
+</LinearLayout>
